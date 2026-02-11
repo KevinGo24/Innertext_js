@@ -4,6 +4,6 @@ function Evento() {
       const textoOriginal = boton.innerText;
       setTimeout(function() {
         Text.innerText = textoOriginal;
-    }, 3000);
+    }, 1000);
 }
 
