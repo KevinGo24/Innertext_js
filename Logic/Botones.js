@@ -1,9 +1,18 @@
+    let Text = document.getElementById("master_boton");
+
+    let Text_1 = false;
+
 function Evento() {
-      const Text = document.getElementById("master_boton");
-      Text.innerText = "Hola, que haremos hoy";
-      const textoOriginal = boton.innerText;
-      setTimeout(function() {
-        Text.innerText = textoOriginal;
-    }, 1000);
+
+    if (Text_1 == false) {
+        Text.innerText = "Que haremos el dia de hoy";
+        Text_1 = true;
+    } else {
+        Text.innerText = "Bienvenidos sean";
+        Text_1 = false;
+    }
+
+
 }
+
 
