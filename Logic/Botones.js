@@ -1,4 +1,4 @@
-    let Text = document.getElementById("master_boton");
+ let Text = document.getElementById("master_boton");
 
     let Text_1 = false;
 
@@ -14,5 +14,4 @@ function Evento() {
 
 
 }
-
 
